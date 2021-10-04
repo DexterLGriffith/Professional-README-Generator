@@ -1,6 +1,7 @@
 // use NPM - initialize and run to include package.json and inquirer. 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateReadMe = require('./generateReadMe')
 
 
 // prompts for information for README file. 
@@ -18,7 +19,7 @@ inquirer. prompt([
     },
     {
         message: "List out the steps needed to complete this project",
-        name: "tasks completed",
+        name: "tasks",
         type: "input",
     },
     {
@@ -50,7 +51,7 @@ inquirer. prompt([
 // put prompts into readme file for creation. 
 .then((data) => {
 // get it to write onto a readme file. 
-    fs.writeFile('README.md', htmlContent,(err) => {
+    fs.writeFile('generatedREADME.md', generateReadMe(data),(err) => {
         if (err) {
             console.log('ERROR',err);
         }
