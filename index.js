@@ -19,7 +19,17 @@ inquirer. prompt([
     },
     {
         message: "List out the steps needed to complete this project",
-        name: "tasks",
+        name: "taskstep1",
+        type: "input",
+    },
+    {
+        message: "What other steps were needed to complete this project?",
+        name: "taskstep2",
+        type: "input",
+    },
+    {
+        message: "List out the final steps needed to complete this project",
+        name: "taskstep3",
         type: "input",
     },
     {
@@ -33,9 +43,19 @@ inquirer. prompt([
         name: "credits",
     },
     {
-        message: "what resources helped you create this project",
+        message: "what resources helped you create this project?",
         type: "input",
-        name: "references",
+        name: "references1",
+    },
+    {
+        message: "what other resources helped you create this project?",
+        type: "input",
+        name: "references2",
+    },
+    {
+        message: "Link your project url",
+        type: "input",
+        name: "link",
     },
     {
         message: "what license would you like to use?",

@@ -2,12 +2,14 @@ function generateReadMe(data){
     return `
     # ${data.title}
 
-    -[Description](#Description)
-    -[Tasks Completed](#Tasks Completed)
-    -[Installation](#Installation)
-    -[Credits](#Credits)
-    -[References](#References)
-    -[License](#License)
+    ## Table of Contents 
+    ### [Description](#Description)
+    ### [Tasks Completed](#Tasks Completed)
+    ### [Installation](#Installation)
+    ### [Links](#Links)
+    ### [Credits](#Credits)
+    ### [References](#References)
+    ### [License](#License)
 
     ## Description
     
@@ -15,11 +17,19 @@ function generateReadMe(data){
 
     ## Tasks Completed
 
-    ${data.tasks}
+    1. ${data.taskstep1}
+
+    2. ${data.taskstep2}
+
+    3. ${data.taskstep3}
 
     ## Installation 
 
     ${data.installation}
+
+    ## Links
+
+    ${data.link}
 
     ## Credits 
 
@@ -27,7 +37,9 @@ function generateReadMe(data){
 
     ## References
 
-    ${data.references}
+    1. ${data.references1}
+
+    2. ${data.references2}
 
     ## License 
 
