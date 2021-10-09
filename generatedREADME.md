@@ -12,17 +12,19 @@
 
     ## Description
     
-    Build a professional README generator from scratch using node.js, which allows the user to input information into the node index.js termainl, and output the information into a professionally designed README.md file. 
+    Build a professional README generator from scratch using node.js and the skills learned from the previous weeks. I will build a node.js application which allows the user to input information into the node index.js terminal and output the information into a professionallyt designed README.md file.
 
     ## Tasks Completed
 
-    Created a basic file from Github with README.md, license and initial index.js file.
-    Created the initial shell for the project on index.js file, then initialized npm and ran npm to allow the project to run in the terminal. 
-    Created .gitignore file to ignore certain files, created question template as well as a readme template for the users information to be filed into after input.
+    1. Created basic file from Github with README.md, license and initial index.js file.
+
+    2. Created initial shell for project on index.js, and initialized and ran npm to allow project to run in terminal.
+
+    3. Created .gitignore file, to ignore files, and made question sheets which promp in the terminal when running the program. Finally made a section in index.js file, which prompts creation of README.md file when user answers questions prompted onto the terminal. 
 
     ## Installation 
 
-    Download files from the repository, open index.js and a command terminal for the folder. Initialize npm within the file terminal, type in node index.js and answer questions within prompts. 
+    Download files from the repo, and open index.js and the command terminal for the folder. Initialize npm within file and type in node.js and answer questions. 
 
     ## Links
 

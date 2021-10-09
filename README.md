@@ -30,6 +30,10 @@ Build a professional README generator from scratch using node.js and the skills 
 3. Initialize npm within file terminal.  
 4. Within terminal, type in node index.js and answer questions within prompts. 
 
+## Project Demo 
+
+[![Screencastify](https://watch.screencastify.com/v/uaJfMCW2E5VRRwHd4pCY)](https://watch.screencastify.com/v/uaJfMCW2E5VRRwHd4pCY)
+
 ## Links 
 
 [Link to the Code Repository](https://github.com/DexterLGriffith/Professional-README-Generator)
@@ -44,3 +48,4 @@ Dexter Griffith
 2. https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/tree/master/09-NodeJS/01-Activities/28-Stu_Mini-project
 3. https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/tree/master/09-NodeJS/01-Activities/18-Stu_Package-npm
 4. https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+5. https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
